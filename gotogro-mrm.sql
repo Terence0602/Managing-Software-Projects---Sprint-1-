@@ -3,11 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
-<<<<<<< HEAD
--- Generation Time: Sep 04, 2023 at 4:49 PM
-=======
 -- Generation Time: Sep 18, 2023 at 01:49 PM
->>>>>>> 29b29559804fc5d00bc7973255a4079695f2fbac
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.2
 
@@ -32,20 +28,11 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `member` (
-<<<<<<< HEAD
-  `MemberID` varchar(5) NOT NULL,
-  `MemberFirstName` varchar(50) NOT NULL,
-  `MemberLastName` varchar(40) NOT NULL,
-  `MemberDateOfBirth` date NOT NULL,
-  `MemberEmail` varchar(40) NOT NULL,
-  `MemberPassword` varchar(40) NOT NULL,
-=======
   `MemberID` int(11) NOT NULL,
   `MemberFirstName` varchar(50) NOT NULL,
   `MemberLastName` varchar(40) NOT NULL,
   `MemberDateOfBirth` date DEFAULT NULL,
   `MemberEmail` varchar(40) NOT NULL,
->>>>>>> 29b29559804fc5d00bc7973255a4079695f2fbac
   `MemberPhone` varchar(20) NOT NULL,
   `MemberAddress` varchar(100) NOT NULL,
   `MemberSuburb` varchar(30) NOT NULL,
@@ -54,8 +41,6 @@ CREATE TABLE `member` (
   `MemberJoinDate` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-<<<<<<< HEAD
-=======
 --
 -- Dumping data for table `member`
 --
@@ -65,7 +50,6 @@ INSERT INTO `member` (`MemberID`, `MemberFirstName`, `MemberLastName`, `MemberDa
 (2, 'Elizabeth', 'McLachlan', '1987-11-12', 'emclachlan@gmail.com', '0450111222', '12 Morrow Road', 'Longwood', 'NSW', 4444, '2023-09-17'),
 (3, 'Arnold', 'McLachlan', '1985-06-18', 'arnmcclachlan@gmail.com', '0450333444', '12 Morrow Road', 'Longwood', 'NSW', 4444, '2023-09-18');
 
->>>>>>> 29b29559804fc5d00bc7973255a4079695f2fbac
 -- --------------------------------------------------------
 
 --
@@ -77,11 +61,6 @@ CREATE TABLE `product` (
   `ProductName` varchar(50) NOT NULL,
   `ProductStock` int(4) NOT NULL,
   `ProductSupplyDate` date NOT NULL,
-<<<<<<< HEAD
-  `ProductSupplier` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
-=======
   `ProductSupplier` varchar(50) NOT NULL,
   `ProductPricePerUnit` float(5,2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -95,7 +74,6 @@ INSERT INTO `product` (`ProductID`, `ProductName`, `ProductStock`, `ProductSuppl
 (2, 'Bergerson Sour Cream Chips', 200, '2023-09-02', 'Bergerson Snacks', 14.00),
 (3, 'Rainbow Drops', 400, '2023-08-31', 'Bergerson Snacks', 8.00);
 
->>>>>>> 29b29559804fc5d00bc7973255a4079695f2fbac
 -- --------------------------------------------------------
 
 --
@@ -103,15 +81,6 @@ INSERT INTO `product` (`ProductID`, `ProductName`, `ProductStock`, `ProductSuppl
 --
 
 CREATE TABLE `sales` (
-<<<<<<< HEAD
-  `SalesID` varchar(5) NOT NULL,
-  `SalesSoldDate` date NOT NULL,
-  `SalesItem` varchar(50) NOT NULL,
-  `SalesBuyer` varchar(50) NOT NULL,
-  `SalesPrice` double(4,2) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
-=======
   `SalesID` int(11) NOT NULL,
   `SalesSoldDate` date NOT NULL,
   `SalesItem` varchar(50) NOT NULL,
@@ -129,7 +98,6 @@ INSERT INTO `sales` (`SalesID`, `SalesSoldDate`, `SalesItem`, `SalesBuyerName`, 
 (2, '2023-09-09', 'Golden Apples', 'Elizabeth McLachlan', 4, 20.00),
 (3, '2023-09-08', 'Rainbow Drops', 'John Larkin', 6, 48.00);
 
->>>>>>> 29b29559804fc5d00bc7973255a4079695f2fbac
 -- --------------------------------------------------------
 
 --
@@ -137,11 +105,7 @@ INSERT INTO `sales` (`SalesID`, `SalesSoldDate`, `SalesItem`, `SalesBuyerName`, 
 --
 
 CREATE TABLE `staff` (
-<<<<<<< HEAD
-  `StaffID` varchar(5) NOT NULL,
-=======
   `StaffID` int(11) NOT NULL,
->>>>>>> 29b29559804fc5d00bc7973255a4079695f2fbac
   `StaffName` varchar(50) NOT NULL,
   `StaffEmail` varchar(40) NOT NULL,
   `StaffPassword` varchar(40) NOT NULL
@@ -180,12 +144,6 @@ ALTER TABLE `staff`
 --
 
 --
-<<<<<<< HEAD
--- AUTO_INCREMENT for table `product`
---
-ALTER TABLE `product`
-  MODIFY `ProductID` int(3) NOT NULL AUTO_INCREMENT;
-=======
 -- AUTO_INCREMENT for table `member`
 --
 ALTER TABLE `member`
@@ -208,7 +166,6 @@ ALTER TABLE `sales`
 --
 ALTER TABLE `staff`
   MODIFY `StaffID` int(11) NOT NULL AUTO_INCREMENT;
->>>>>>> 29b29559804fc5d00bc7973255a4079695f2fbac
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
