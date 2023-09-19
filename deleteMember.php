@@ -25,3 +25,5 @@
         </nav>
         <h3>Delete Members Page</h3>
         <hr />
+    </body>
+</html>
