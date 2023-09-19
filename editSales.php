@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="description" content="Product Records" />
+        <meta name="description" content="Sales Records" />
         <title>Goto Grocery - Sales Records Page</title>
     </head>
     <body>
@@ -17,12 +17,13 @@
             <hr />
         </header>
         <h1>Sales Records Page</h1>
-        <h3>Select Action</h3>
         <hr />
         <nav>
             <a href="addSales.php">Add Sales Record</a>
             <a href="editSales.php">Edit Sales Record</a>
             <a href="deleteSales.php">Delete Sales Record</a>
         </nav>
+        <h3>Edit Sales Record</h3>
+        <hr />
     </body>
 </html>
