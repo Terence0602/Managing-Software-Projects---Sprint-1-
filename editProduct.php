@@ -22,6 +22,7 @@
             <a href="addProduct.php">Add Product Record</a>
             <a href="editProduct.php">Edit Product Record</a>
             <a href="deleteProduct.php">Delete Product Record</a>
+            <a href="searchProduct.php">Search Product Record</a>
         </nav>
         <h3>Edit Product Page</h3>
         <hr />

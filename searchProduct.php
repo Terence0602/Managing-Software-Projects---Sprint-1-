@@ -24,7 +24,7 @@
             <a href="deleteProduct.php">Delete Product Record</a>
             <a href="searchProduct.php">Search Product Record</a>
         </nav>
-        <h3>Delete Product Page</h3>
+        <h3>Search Product Page</h3>
         <hr />
     </body>
 </html>
