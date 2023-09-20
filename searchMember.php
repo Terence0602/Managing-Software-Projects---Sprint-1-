@@ -17,12 +17,14 @@
             <hr />
         </header>
         <h1>Member Records Page</h1>
-        <h3>Select Action</h3>
         <hr />
         <nav>
             <a href="addMember.php">Add Member Record</a>
             <a href="editMember.php">Edit Member Record</a>
             <a href="deleteMember.php">Delete Member Record</a>
             <a href="searchMember.php">Search Member Records</a>
+        </nav>
+        <h3>Search Members Page</h3>
+        <hr />
     </body>
 </html>

@@ -23,6 +23,7 @@
             <a href="addSales.php">Add Sales Record</a>
             <a href="editSales.php">Edit Sales Record</a>
             <a href="deleteSales.php">Delete Sales Record</a>
+            <a href="searchSales.php">Search Sales Record</a>
         </nav>
     </body>
 </html>

@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="description" content="Member Records" />
-        <title>Goto Grocery - Member Records Page</title>
+        <meta name="description" content="Sales Records" />
+        <title>Goto Grocery - Sales Records Page</title>
     </head>
     <body>
         <header>
@@ -16,13 +16,15 @@
             </nav>
             <hr />
         </header>
-        <h1>Member Records Page</h1>
-        <h3>Select Action</h3>
+        <h1>Sales Records Page</h1>
         <hr />
         <nav>
-            <a href="addMember.php">Add Member Record</a>
-            <a href="editMember.php">Edit Member Record</a>
-            <a href="deleteMember.php">Delete Member Record</a>
-            <a href="searchMember.php">Search Member Records</a>
+            <a href="addSales.php">Add Sales Record</a>
+            <a href="editSales.php">Edit Sales Record</a>
+            <a href="deleteSales.php">Delete Sales Record</a>
+            <a href="searchSales.php">Search Sales Record</a>
+        </nav>
+        <h3>Search Sales Record</h3>
+        <hr />
     </body>
 </html>

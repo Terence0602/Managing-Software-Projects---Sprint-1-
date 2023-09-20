@@ -22,6 +22,7 @@
             <a href="addMember.php">Add Member Record</a>
             <a href="editMember.php">Edit Member Record</a>
             <a href="deleteMember.php">Delete Member Record</a>
+            <a href="searchMember.php">Search Member Records</a>
         </nav>
         <h3>Edit Members Page</h3>
         <hr />
