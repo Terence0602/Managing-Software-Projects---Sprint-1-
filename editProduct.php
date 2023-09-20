@@ -17,12 +17,13 @@
             <hr />
         </header>
         <h1>Product Records Page</h1>
-        <h3>Select Action</h3>
         <hr />
         <nav>
             <a href="addProduct.php">Add Product Record</a>
             <a href="editProduct.php">Edit Product Record</a>
             <a href="deleteProduct.php">Delete Product Record</a>
         </nav>
+        <h3>Edit Product Page</h3>
+        <hr />
     </body>
 </html>
