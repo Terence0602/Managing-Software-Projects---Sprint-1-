@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="GotoGro MRM Project" />
+        <link rel="stylesheet" href="./css/style.css">
         <title>Goto Grocery</title>
     </head>
     <body>

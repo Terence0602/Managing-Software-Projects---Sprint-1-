@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="Product Records" />
+        <link rel="stylesheet" href="./css/style.css">
         <title>Goto Grocery - Product Records Page</title>
     </head>
     <body>

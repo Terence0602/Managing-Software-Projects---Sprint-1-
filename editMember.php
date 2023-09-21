@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="Member Records" />
+        <link rel="stylesheet" href="./css/style.css">
         <title>Goto Grocery - Member Records Page</title>
     </head>
     <body>
@@ -25,6 +26,11 @@
             <a href="searchMember.php">Search Member Records</a>
         </nav>
         <h3>Edit Members Page</h3>
+        <p>To search for a member's record to edit, please enter a search query below.</p>
+        <form action="search_results/edit_member_search_results.php" method="GET">
+            <input type="text" name="query" placeholder="Enter a query.">
+            <input type="submit" value="Search">
+        </form>
         <hr />
     </body>
 </html>
