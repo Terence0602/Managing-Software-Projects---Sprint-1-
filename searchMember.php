@@ -26,6 +26,11 @@
             <a href="searchMember.php">Search Member Records</a>
         </nav>
         <h3>Search Members Page</h3>
+        <p>To search for a member's record, please enter a search query below.</p>
+        <form action="search_results/search_member_search_results.php" method="GET">
+            <input type="text" name="query" placeholder="Enter a query.">
+            <input type="submit" value="Search">
+        </form>
         <hr />
     </body>
 </html>

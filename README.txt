@@ -13,4 +13,3 @@ Opening and accessing the database:
     - Click on Import
 4. In the File to import section, upload the "gotogro-mrm.sql" file included in this folder.
 5. Click on "Go" in the bottom right corner to confirm the upload (may need to scroll down a little)
-6. Enjoy!

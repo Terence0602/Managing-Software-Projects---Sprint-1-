@@ -26,6 +26,11 @@
             <a href="searchMember.php">Search Member Records</a>
         </nav>
         <h3>Delete Members Page</h3>
+        <p>To search for a member's record to delete, please enter a search query below.</p>
+        <form action="search_results/delete_member_search_results.php" method="GET">
+            <input type="text" name="query" placeholder="Enter a query.">
+            <input type="submit" value="Search">
+        </form>
         <hr />
     </body>
 </html>

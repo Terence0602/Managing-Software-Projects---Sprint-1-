@@ -26,6 +26,11 @@
             <a href="searchProduct.php">Search Product Record</a>
         </nav>
         <h3>Search Product Page</h3>
+        <p>To search for a product record, please enter a search query below.</p>
+        <form action="search_results/search_product_search_results.php" method="GET">
+            <input type="text" name="query" placeholder="Enter a query.">
+            <input type="submit" value="Search">
+        </form>
         <hr />
     </body>
 </html>

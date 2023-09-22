@@ -26,6 +26,11 @@
             <a href="searchSales.php">Search Sales Record</a>
         </nav>
         <h3>Search Sales Record</h3>
+        <p>To search for a sales record, please enter a search query below.</p>
+        <form action="search_results/search_sales_search_results.php" method="GET">
+            <input type="text" name="query" placeholder="Enter a query.">
+            <input type="submit" value="Search">
+        </form>
         <hr />
     </body>
 </html>
